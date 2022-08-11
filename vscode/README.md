@@ -1,0 +1,4 @@
+# Commands
+```
+code --list-extensions
+```
