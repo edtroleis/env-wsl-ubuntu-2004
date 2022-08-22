@@ -24,8 +24,8 @@ vim /mnt/c/Users/edtro/.wslconfig
 
 ## [WSL config file on Linux](wsl.conf)
 ```
-Do not reconfigure /etc/hosts everytime
-Into Linux (Ubuntu)
+# To Linux does not overwrite /etc/hosts on WSL
+# Into Linux (Ubuntu)
 vim /etc/wsl.conf
 ```
 
