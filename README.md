@@ -22,6 +22,13 @@ notepad "$env:USERPROFILE/.wslconfig"
 vim /mnt/c/Users/edtro/.wslconfig
 ```
 
+## [WSL config file on Linux](wsl.conf)
+```
+Do not reconfigure /etc/hosts everytime
+Into Linux (Ubuntu)
+vim /etc/wsl.conf
+```
+
 [More details about wsl config](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wslconfig)
 
 # Links

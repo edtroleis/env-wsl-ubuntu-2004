@@ -12,6 +12,12 @@ curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 # jq
 apt install jq -y
 
+# ansible
+apt install ansible -y
+
+# packer
+apt install packer -y
+
 # terraform
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
