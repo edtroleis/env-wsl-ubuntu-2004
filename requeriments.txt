@@ -4,3 +4,4 @@ databricks-cli
 az.cli
 xlrd
 openpyxl
+requests 

@@ -2,6 +2,7 @@
 Run
 1. avell_host_configuration.ps1 on Powershell as Administrator
 2. avell_wsl_ubuntu_configuration.sh on WSL Ubuntu
+3. pip install -r requirements on WSL Ubuntu
 
 # WSL
 
