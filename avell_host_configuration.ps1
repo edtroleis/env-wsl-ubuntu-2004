@@ -5,10 +5,12 @@ choco install docker-desktop -y
 
 choco install docker-compose -y
 
-choco install vscode
+choco install vscode -y
 
 choco install python3 -y
 
 choco install 7zip.install -y
 
 choco install virtualbox -y
+
+choco install lightshot -y

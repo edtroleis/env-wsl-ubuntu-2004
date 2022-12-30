@@ -26,6 +26,14 @@ sudo apt install terraform
 # sshpass
 apt install sshpass -y
 
+# minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+# nodejs
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+apt-get install -y nodejs
+
 # pip
 apt install python3-pip -y
 pip3 install -r requirements.txt
@@ -38,6 +46,11 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install -y powershell
 # pwsh - Start PowerShell
+
+# Hashicorp vault
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+apt update && sudo apt install vault
 
 # Update ~/.bashrc
 cat <<EOT >> ~/.bashrc
